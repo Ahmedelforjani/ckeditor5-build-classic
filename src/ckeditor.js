@@ -54,4 +54,39 @@ Editor.builtinPlugins = [
 	Underline
 ];
 
+ClassicEditor.defaultConfig = {
+	toolbar: {
+		items: [
+			'heading',
+			'|',
+			'bold',
+			'italic',
+			'underline',
+			'highlight',
+			'link',
+			'bulletedList',
+			'numberedList',
+			'|',
+			'alignment',
+			'indent',
+			'outdent',
+			'horizontalLine',
+			'|',
+			'imageUpload',
+			'blockQuote',
+			'mediaEmbed',
+			'undo',
+			'redo'
+		]
+	},
+	language: 'ar',
+	image: {
+		toolbar: [
+			'imageTextAlternative',
+			'imageStyle:full',
+			'imageStyle:side'
+		]
+	},
+}
+
 export default Editor;
