@@ -25,6 +25,8 @@ import MediaEmbed from '@ckeditor/ckeditor5-media-embed/src/mediaembed.js';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph.js';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Underline from '@ckeditor/ckeditor5-basic-styles/src/underline.js';
+import HeadingButtonsUI from '@ckeditor/ckeditor5-heading/src/headingbuttonsui';
+import ParagraphButtonUI from '@ckeditor/ckeditor5-paragraph/src/paragraphbuttonui';
 
 class Editor extends ClassicEditor {}
 
@@ -51,7 +53,9 @@ Editor.builtinPlugins = [
 	MediaEmbed,
 	Paragraph,
 	PasteFromOffice,
-	Underline
+	Underline,
+	ParagraphButtonUI,
+	HeadingButtonsUI
 ];
 
 ClassicEditor.defaultConfig = {
